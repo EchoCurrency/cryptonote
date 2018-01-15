@@ -14,7 +14,7 @@ const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 1000000000;
 //TODO Currency-specific address prefix
-const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0x2331e0;
+const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0x1cc2f1e0;
 //TODO Choose maturity period for your currency
 const size_t   CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW          = 60;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT            = 60 * 60 * 2;
@@ -73,8 +73,8 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 //TODO Put here the name of your currency
-const char     CRYPTONOTE_NAME[]                             = "echo-currency";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001faf49aa535029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210170d6103a9a45e5404fc3f5fdd22bafb640e2738939237ce74b28c9d9d6f2571b";
+const char     CRYPTONOTE_NAME[]                             = "echo";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001faf49aa535029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121014c18293ae7d608db32e18c6da420b92232783fe821a3f11338cc037b4451468e";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
