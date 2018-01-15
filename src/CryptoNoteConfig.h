@@ -24,7 +24,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 //TODO Specify total number of available coins
 //TODO ((uint64_t)(-1)) equals to 18446744073709551616 coins
 //TODO or you can define number explicitly UINT64_C(858986905600000000)
-const uint64_t MONEY_SUPPLY                                  = UINT64_C(858986905600000000);
+const uint64_t MONEY_SUPPLY                                  = UINT64_C(150000000000000);
 const unsigned EMISSION_SPEED_FACTOR                         = 22;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
@@ -106,8 +106,8 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  //"testnet.ignorelist.com:17236",
-  //"testnet1.ignorelist.com:8080",
+  "185.12.6.61:4585",
+  "104.36.19.140:4585",
 };
 
 struct CheckpointData {
